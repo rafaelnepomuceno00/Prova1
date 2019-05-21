@@ -22,21 +22,8 @@ public Data getData(){
     return this.dataDeNascimento;
 }
 
-public void mostra(){
-    System.out.println("Nome: "+this.getNome());
-    dataDeNascimento.mostra();
+public void mostraDiretor(){
+    System.out.println("Nome do Diretor: "+this.getNome());
+    this.dataDeNascimento.mostraData();
 }  
-
-
-
-
-
-}
-
-
-
-
-
-
-
 }
